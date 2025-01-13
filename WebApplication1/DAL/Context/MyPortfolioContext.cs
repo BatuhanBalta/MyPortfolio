@@ -28,5 +28,7 @@ namespace MyPortfolio.DAL.Context
         public DbSet<SocialMedia> SocialMedias { get; set; }
 
         public DbSet<Testimonial> Testimonials { get; set; }
+    
+       public DbSet<TodoList> TodoLists { get; set; }
     }
 }
